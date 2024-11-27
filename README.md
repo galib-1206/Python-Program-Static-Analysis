@@ -11,16 +11,17 @@ Generate a graph that maps the relationships between functions, showing which fu
 - Data Flow Diagram (DFD) Generation:
 Visualize the interaction between processes, data stores, and external entities, incorporating variables and file or log interactions.
 
-### Project Structure
+### Project Directory
 .
-├── analysis_output/       # Directory for storing generated CFGs, Call Graphs, and DFDs
-├── simple library management/
-│   ├── main.py            # Example Python application (Library Management System)
-│   └── (other files...)   # Additional Python files for testing
-├── cfg_generator.py       # Module for generating Control Flow Graphs
-├── call_graph_generator.py# Module for generating Call Graphs
-├── dfd_generator.py       # Module for generating Data Flow Diagrams  
-└── README.md              # This file
+├── analysis_output/             # Directory for storing generated CFGs, Call Graphs, and DFDs
+├── simple library management/   # Directory containing the main application
+│   ├── main.py                  # Example Python application (Library Management System)
+│   └── (other files...)         # Additional Python files for testing
+├── cfg_generator.py             # Module for generating Control Flow Graphs
+├── call_graph_generator.py      # Module for generating Call Graphs
+├── dfd_generator.py             # Module for generating Data Flow Diagrams  
+└── README.md                    # This file
+
 
 ### Prerequisites
 Libraries:
