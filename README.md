@@ -13,14 +13,14 @@ Visualize the interaction between processes, data stores, and external entities,
 
 ### Project Directory
 .
-├── analysis_output/             # Directory for storing generated CFGs, Call Graphs, and DFDs
-├── simple library management/   # Directory containing the main application
-│   ├── main.py                  # Example Python application (Library Management System)
-│   └── (other files...)         # Additional Python files for testing
-├── cfg_generator.py             # Module for generating Control Flow Graphs
-├── call_graph_generator.py      # Module for generating Call Graphs
-├── dfd_generator.py             # Module for generating Data Flow Diagrams  
-└── README.md                    # This file
+├── analysis_output/             
+├── simple library management/  
+│   ├── main.py                  
+│   └── (other files...)         
+├── cfg_generator.py             
+├── call_graph_generator.py      
+├── dfd_generator.py            
+└── README.md                    
 
 
 ### Prerequisites
