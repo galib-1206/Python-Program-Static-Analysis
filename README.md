@@ -12,6 +12,7 @@ Generate a graph that maps the relationships between functions, showing which fu
 Visualize the interaction between processes, data stores, and external entities, incorporating variables and file or log interactions.
 
 ### Project Structure
+.
 ├── analysis_output/       # Directory for storing generated CFGs, Call Graphs, and DFDs
 ├── simple library management/
 │   ├── main.py            # Example Python application (Library Management System)
