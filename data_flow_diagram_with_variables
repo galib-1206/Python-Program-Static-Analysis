@@ -1,0 +1,12 @@
+digraph DFD {
+	user [label=User color=lightblue shape=rectangle style=filled]
+	list_books [label="List Books" color=yellow shape=ellipse style=filled]
+	borrow_book [label="Borrow Book" color=yellow shape=ellipse style=filled]
+	return_book [label="Return Book" color=yellow shape=ellipse style=filled]
+	main [label=Main color=yellow shape=ellipse style=filled]
+	user -> borrow_book [label=book_name]
+	user -> return_book [label=book_name]
+	main -> list_books [label=Call]
+	main -> borrow_book [label=Call]
+	main -> return_book [label=Call]
+}
