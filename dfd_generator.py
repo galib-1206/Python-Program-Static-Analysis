@@ -1,3 +1,4 @@
+
 # import ast
 # import networkx as nx
 # from matplotlib import pyplot as plt
@@ -51,6 +52,9 @@
 # if __name__ == "__main__":
 #     file_to_analyze = "simple_library_management/main.py"
 #     generate_dfd(file_to_analyze)
+
+#  matplotlib is not working well.
+# graphviz is much more effective.
 
 import os
 import ast
